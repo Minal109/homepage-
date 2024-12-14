@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+header{
+    background-color: #005f73;
+    color:aliceblue;
+    padding: 15px 0;
+    text-transform: capitalize;
+}
+.header-content{
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header-content h1 {
+    margin-left: 20px;
+
+}
+.header-content nav ul{
+    list-style: none;
+    display: flex;
+}
+.header-content nav ul li{
+    margin-left: 20px;
+}
+.header-content nav ul li a{
+    color: aliceblue;
+    text-decoration: none;
+    font-weight: bold;
+}
+#hero {
+    background-image: url("https://plus.unsplash.com/premium_photo-1681487178876-a1156952ec60?fm=jpg&q=60&w=3000&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8b2ZmaWNlfGVufDB8fDB8fHww");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /* color: aliceblue; */
+}
+.hero-content{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    color: aliceblue;
+}
+.hero-button{
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: black;
+    color:aliceblue;
+    text-decoration: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: background-color 0.3s;
+    -webkit-transition: background-color 0.3s;
+    -moz-transition: background-color 0.3s;
+    -ms-transition: background-color 0.3s;
+    -o-transition: background-color 0.3s;
+}
+.hero-button:hover{
+    background-color: rgba(102, 220, 238, 0.8);
+}
+footer{
+    background-color: #005f73;
+    text-align: center;
+    padding: 20px;
+    color: aliceblue;
+    font-weight: bold;
+}
+#services, #about, #contact {
+    padding: 20px;
+    text-align: center;
+    text-transform: capitalize;
+   
+}
+#services h2, #about h2{
+    margin-bottom: 15px;
+    
+}
+#services ul{
+    margin-left: 20px;
+   list-style-type: none;
+}
+#services  ul li {
+    margin-top: 10px;
+
+}
+#contact{
+    text-align: center;
+}
+#services li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
